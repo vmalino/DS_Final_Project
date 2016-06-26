@@ -4,30 +4,42 @@ library(dplyr)
 # 2-grams of 3 corpuses
 
 b2grams <- as.data.frame(rbind(
-        c("it","could","3"),
-        c("a","lot","2"),
-        c("a","bottle","2"),
-        c("an","impetus","2"),
-        c("and","they","2"),
-        c("be","a","2")
+        c("of","the","4160"),
+        c("in","the","3453"),
+        c("to","the","1922"),
+        c("on","the","1633"),
+        c("to","be","1503"),
+        c("and","the","1321"),
+        c("for","the","1245"),
+        c("and","i","1084"),
+        c("i","was","1082"),
+        c("is","a","1047")
 ), stringsAsFactors = FALSE)
 
 n2grams <- as.data.frame(rbind(
-        c("it","could","3"),
-        c("a","lot","2"),
-        c("a","bottle","2"),
-        c("an","impetus","2"),
-        c("and","they","2"),
-        c("be","a","2")
+        c("of","the","14050"),
+        c("in","the","13496"),
+        c("to","the","6408"),
+        c("on","the","5543"),
+        c("for","the","5379"),
+        c("at","the","4489"),
+        c("and","the","4024"),
+        c("in","a","4003"),
+        c("to","be","3547"),
+        c("with","the","3318")
 ), stringsAsFactors = FALSE)
 
 t2grams <- as.data.frame(rbind(
-        c("it","could","3"),
-        c("a","lot","2"),
-        c("a","bottle","2"),
-        c("an","impetus","2"),
-        c("and","they","2"),
-        c("be","a","2")
+        c("in","the","3369"),
+        c("for","the","3184"),
+        c("of","the","2371"),
+        c("on","the","2005"),
+        c("to","be","1957"),
+        c("to","the","1891"),
+        c("thanks","for","1866"),
+        c("at","the","1540"),
+        c("i","love","1497"),
+        c("going","to","1423")
 ), stringsAsFactors = FALSE)
 
 # 3-grams of 3 corpuses
@@ -41,31 +53,34 @@ b3grams <- as.data.frame(rbind(
         c("out","of","the","139"),
         c("i","want","to","135"),
         c("be","able","to","130"),
-        c("a","couple","of","128")
+        c("a","couple","of","128"),
+        c("to","be","a","128")
 ), stringsAsFactors = FALSE)
 
 n3grams <- as.data.frame(rbind(
-        c("one","of","the","337"),
-        c("a","lot","of","300"),
-        c("as","well","as","153"),
-        c("the","end","of","150"),
-        c("some","of","the","144"),
-        c("out","of","the","139"),
-        c("i","want","to","135"),
-        c("be","able","to","130"),
-        c("a","couple","of","128")
+        c("one","of","the","526"),
+        c("a","lot","of","468"),
+        c("as","well","as","241"),
+        c("according","to","the","238"),
+        c("in","the","first","226"),
+        c("the","end","of","221"),
+        c("going","to","be","209"),
+        c("out","of","the","199"),
+        c("part","of","the","193"),
+        c("to","be","a","188")
 ), stringsAsFactors = FALSE)
 
 t3grams <- as.data.frame(rbind(
-        c("one","of","the","337"),
-        c("a","lot","of","300"),
-        c("as","well","as","153"),
-        c("the","end","of","150"),
-        c("some","of","the","144"),
-        c("out","of","the","139"),
-        c("i","want","to","135"),
-        c("be","able","to","130"),
-        c("a","couple","of","128")
+        c("thanks","for","the","1018"),
+        c("looking","forward","to","384"),
+        c("thank","you","for","374"),
+        c("cant","wait","to","358"),
+        c("i","love","you","344"),
+        c("for","the","follow","338"),
+        c("i","want","to","323"),
+        c("going","to","be","318"),
+        c("a","lot","of","267"),
+        c("i","need","to","251")
 ), stringsAsFactors = FALSE)
 
 # Prediction algorithm

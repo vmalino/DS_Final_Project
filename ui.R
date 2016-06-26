@@ -13,7 +13,10 @@ shinyUI(pageWithSidebar(
                 tabsetPanel(
                         tabPanel("Result", h2(htmlOutput("pred"))),
                         tabPanel("About", h3("DS Final Project"),
-                                 p("Vladimir Malinovskiy"))
+                                 p("author: vmalino"),
+                                 p("Enter phrase to get next word prediction"),
+                                 p("For more details:"),
+                                 a("RPbubs", href = "http://rpubs.com/vmalino/wordpred"))
                 )
                 
         )
